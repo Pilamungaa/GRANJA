@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Visitas extends Model
+{
+    use HasFactory;
+    protected $primaryKey='id';
+    protected $fillable=['motivo_visita','fecha_visita','porcino_tratado','medicamento aplicado','insertar_tratamiento','observacion'];
+}

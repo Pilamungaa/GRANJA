@@ -1,0 +1,107 @@
+body{
+    background-color: red;
+}
+
+  .bg-white {
+    background-color: #001D3B;
+  }
+ .bg-gray{
+    background-color: #001D3B;
+ }
+
+  label[for="email"] {
+    color: #fff;
+  }
+
+label[for="password"] {
+  color: #fff;
+}
+label[for="remember_me"] {
+    color: #fff;
+  }
+    
+  .text-gray-600 {
+    color: #fff;
+  }
+  /* 
+  """""""""""""""""""""""""""""""""""""""""""""""" ADMIN LTE3"""""""""""""""""""""" */
+  nav .navbar-brand b {
+    color: red;
+  }
+  .nav-sidebar .nav-items i .fa,.far,.fas,.fal.fab {
+    color:  #FF5A5F;
+  }
+  .fa, .far, .fas, .fal, .fab {
+    color:  #FF5A5F;
+  }
+  :root {
+   --color-menu: #001D3B
+  }
+  .main-sidebar {
+    background-color: var(--color-menu);
+  }
+  
+  .nav-sidebar .nav-item .nav-link {
+  
+ 
+    color:white;
+    }
+    
+    .main-header {
+      background-color: #001D3B;
+    }
+    
+    
+     /* =============================================================== */
+     .nav-link.dropdown-toggle span {
+      color: white;
+            
+    }
+    .brand-text b {
+      color:  #FF5A5F;
+      font-size: 150%;
+      font-family: "Courier New", monospace;
+    }
+    .brand-image {
+      height: 50%;
+      width: 50%;
+    }
+    .form-control{
+      color: white;
+    }
+    .form-control-sidebar::placeholder {
+      color: white;
+    }
+    
+
+
+  /* }==================buscados ============= */
+
+    .form-inline.my-2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .input-group[data-widget="sidebar-search"] {
+      border: 1px solid #FF5A5F;
+      background-color: #f1f1f1;
+      border-radius: 4px;
+    }
+    
+    .form-control-sidebar {
+      border: none;
+      background-color: #f1f1f1;
+      width: 200px;
+    }
+    
+    .btn.btn-sidebar {
+      background-color:  #001D3B;
+      border: none;
+    }
+    
+    .btn.btn-sidebar:hover {
+      background-color:#fff;
+      border: none;
+    }
+    
